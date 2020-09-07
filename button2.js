@@ -31,7 +31,7 @@ class Position2 {
   container = ``;
   subcontainer = ``;
   row = 11;
-  col = 6;
+  col = 10;
   height = 1;
   width = 2;
   tabNum = 0;

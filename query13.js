@@ -1,5 +1,4 @@
 import * as query5 from './query5';
-import * as query4 from './query4';
 /* @type {string} */
 const id = `query13`;
 
@@ -19,7 +18,7 @@ const container = ``;
 const createdAt = `2020-07-20T16:19:02.022Z`;
 
 /* @type {string} */
-const updatedAt = `2020-09-05T20:00:38.460Z`;
+const updatedAt = `2020-09-07T06:17:48.363Z`;
 
 class Template {
   queryRefreshTime = ``;
@@ -35,7 +34,7 @@ class Template {
   playgroundQueryId = 0;
   privateParams = [];
 
-  triggersOnSuccess = [query4];
+  triggersOnSuccess = [];
 
   runWhenPageLoadsDelay = ``;
   warningCodes = [];
@@ -46,7 +45,7 @@ class Template {
   dataArray = [];
 
   cacheKeyTtl = ``;
-  triggersOnFailure = [query4, query5];
+  triggersOnFailure = [query5];
 
   shouldUseLegacySql = false;
   errorTransformer() {

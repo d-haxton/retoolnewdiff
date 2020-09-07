@@ -1,3 +1,4 @@
+import * as query4 from './query4';
 import * as table3 from './table3';
 import * as companiesTable from './companiesTable';
 import * as tableChangeIndex from './tableChangeIndex';
@@ -20,7 +21,7 @@ const container = ``;
 const createdAt = `2020-07-20T16:26:31.257Z`;
 
 /* @type {string} */
-const updatedAt = `2020-07-20T16:26:42.699Z`;
+const updatedAt = `2020-09-07T06:18:19.196Z`;
 
 class Template {
   queryRefreshTime = ``;
@@ -33,13 +34,16 @@ class Template {
   query() {
     companiesTable.selectRow(1);
     table3.selectRow(1);
-    //return companiesTable.data.findIndex( ({id}) => id === urlparams.hash.selectedId);
+    table3.selectPage(10);
+    return companiesTable.data.findIndex(
+      ({id}) => id === urlparams.hash.selectedId
+    );
   }
   playgroundQueryUuid = ``;
   playgroundQueryId = 0;
   privateParams = [];
 
-  triggersOnSuccess = [];
+  triggersOnSuccess = [query4];
 
   runWhenPageLoadsDelay = ``;
   showSuccessConfetti = false;
@@ -60,7 +64,7 @@ class Template {
   enableErrorTransformer = false;
   timestamp = 0;
   enableTransformer = false;
-  runWhenPageLoads = false;
+  runWhenPageLoads = true;
   transformer() {
     // type your code here
     // example: return formatDataAsArray(data).filter(row => row.quantity > 20)

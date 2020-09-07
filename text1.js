@@ -14,7 +14,7 @@ const container = ``;
 const createdAt = `2020-07-20T16:39:38.999Z`;
 
 /* @type {string} */
-const updatedAt = `2020-08-26T05:26:53.872Z`;
+const updatedAt = `2020-09-07T06:20:28.265Z`;
 
 /** @typedef {Object} Position2
  * @property {Number} col

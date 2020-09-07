@@ -15,7 +15,7 @@ const container = ``;
 const createdAt = `2020-07-20T16:19:46.726Z`;
 
 /* @type {string} */
-const updatedAt = `2020-08-25T23:03:26.926Z`;
+const updatedAt = `2020-09-07T06:20:44.922Z`;
 
 /** @typedef {Object} Position2
  * @property {Number} col
@@ -52,7 +52,7 @@ class Template {
   selectedPageIndex = `0`;
   actionButtonColumnName = `Actions`;
   filterStackType = `and`;
-  downloadRawData = false;
+  downloadRawData = true;
   showFetchingIndicator = true;
   serverPaginated = false;
   data = `${query13.data}`;
@@ -64,7 +64,7 @@ class Template {
   paginationOffset = 0;
   sortedDesc = false;
   customButtonName = ``;
-  pageSize = 6;
+  pageSize = 11;
   useDynamicColumnSettings = false;
   actionButtonPosition = `left`;
   bulkUpdateAction = ``;
@@ -114,5 +114,5 @@ class Template {
 
   showPaginationOnTop = false;
   nextAfterCursor = ``;
-  useCompactMode = false;
+  useCompactMode = true;
 }

@@ -29,7 +29,7 @@ const updatedAt = `2020-08-27T23:36:43.977Z`;
 class Position2 {
   container = ``;
   subcontainer = ``;
-  row = 3;
+  row = 1;
   col = 0;
   height = 8;
   width = 6;

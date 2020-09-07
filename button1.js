@@ -15,7 +15,7 @@ const container = ``;
 const createdAt = `2020-07-20T16:23:35.525Z`;
 
 /* @type {string} */
-const updatedAt = `2020-08-27T23:18:17.558Z`;
+const updatedAt = `2020-09-07T06:20:11.225Z`;
 
 /** @typedef {Object} Position2
  * @property {Number} col
@@ -30,7 +30,7 @@ class Position2 {
   container = ``;
   subcontainer = ``;
   row = 11;
-  col = 4;
+  col = 2;
   height = 1;
   width = 2;
   tabNum = 0;

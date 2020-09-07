@@ -13,8 +13,8 @@ const loadingIndicatorsDisabled = false;
 /* @type {Array<undefined>} */
 const urlFragmentDefinitions = [];
 
-/* @type {Array<string>} */
-const pageLoadValueOverrides = ['a', 'b', 'c'];
+/* @type {Array<undefined>} */
+const pageLoadValueOverrides = [];
 
 /* @type {string} */
 const customDocumentTitle = ``;
