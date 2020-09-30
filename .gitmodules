@@ -6,3 +6,7 @@
 	path = t1apps
 	url = https://github.com/d-haxton/empty2
 	branch = master
+[submodule "t0apps/"]
+	branch = master
+[submodule "t1apps/"]
+	branch = master
