@@ -7,3 +7,8 @@
 	branch = master
 [submodule "t1apps/"]
 	branch = master
+[submodule "t3apps"]
+	path = t3apps
+	url = ../emptyrepo
+	branch = master
+	update = rebase
