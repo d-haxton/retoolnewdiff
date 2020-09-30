@@ -1,0 +1,4 @@
+[submodule "emptyrepo"]
+	path = emptyrepo
+	url = https://github.com/d-haxton/emptyrepo
+	branch = master
