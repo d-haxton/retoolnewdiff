@@ -1,14 +1,10 @@
 [submodule "t0apps"]
 	path = t0apps
 	url = https://github.com/d-haxton/emptyrepo
+	branch = master
+	update = rebase
 [submodule "t1apps"]
 	path = t1apps
 	url = https://github.com/d-haxton/empty2
-	branch = master
-[submodule "t1apps/"]
-	branch = master
-[submodule "t3apps"]
-	path = t3apps
-	url = ../emptyrepo
 	branch = master
 	update = rebase
