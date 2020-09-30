@@ -2,9 +2,9 @@
 	path = t0apps
 	url = https://github.com/d-haxton/emptyrepo
 	branch = master
-	update = rebase
+	update = checkout
 [submodule "t1apps"]
 	path = t1apps
 	url = https://github.com/d-haxton/empty2
 	branch = master
-	update = rebase
+	update = checkout
